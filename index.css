@@ -9,6 +9,10 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+.contenair {
+    position: relative;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -29,9 +33,13 @@ body {
 
 .menu {
     width: 400px;
-    position: relative;
+    position: fixed;
     left: -400px;
     transition: left 0.5s ease;
+    overflow: auto;
+    background-color: white;
+    height: 100%;
+
 
 }
 
@@ -65,8 +73,34 @@ span img {
 
 }
 
+.menu-liste ul li {
+    font-size: 15px;
+
+}
+
 .menu-liste-image {
-    width: 100px;
+    width: 70px;
     margin: 10px;
 
+}
+
+.menu-liste-navigation {
+    background-color: #8888881f;
+    padding: 20px 0;
+}
+
+.menu-liste-navigation a {
+    padding: 15px 10px;
+
+}
+
+.btn-quantité {
+    position: relative;
+}
+
+.quantité-bag {
+    color: white;
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
 }
