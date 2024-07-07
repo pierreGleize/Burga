@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
-    <script defer src="menu-liste.js"></script>
+    <script defer type="module" src="menu-liste.js"></script>
+    <script defer type="module" src="carousselle.js"></script>
 </head>
 
 <body>
@@ -23,6 +24,21 @@
                     <button class="btn-quantité"><img src="images/bag-fill.svg" alt=""><span
                             class="quantité-bag">0</span></button>
                 </div>
+
+            </div>
+            <div class="header-liste">
+                <nav>
+                    <ul>
+                        <li><a href="">COQUES DE TÉLÉPHONE</a></li>
+                        <li><a href="">BAGUES DE TÉLÉPHONE</a></li>
+                        <li><a href="">COQUES POUR ÉCOUTEURS</a></li>
+                        <li><a href=""> COQUES POUR MACBOOK</a></li>
+                        <li><a href="">HOUSES D'ORDINATEUR</a></li>
+                        <li><a href="">BOUTEILLES ET MUGS</a></li>
+                        <li><a href="">CHAGEURS</a></li>
+                    </ul>
+                </nav>
+
             </div>
             <div class="menu">
                 <button class="boutonClose"><img src="images/x-lg.svg" alt=""></button>
@@ -66,15 +82,188 @@
                 </div>
 
             </div>
-            <div clas="panier">
-                <button><img src="images/x-lg.svg" alt=""></button>
-                <h3>VOTRE PANIER</h3>
+            <div class="panier">
+                <button class="panier-close"><img src="images/x-lg.svg" alt=""></button>
+                <div class="panier-vide">
+                    <img class="panier-image" src="images/bag-fill.svg" alt=""><span
+                        class="quantité-bag-panier">0</span>
+                    <h3>VOTRE PANIER EST VIDE</h3>
+                    <button class="btn-explorez-produits">EXPLOREZ NOS PRODUITS</button>
+                </div>
             </div>
         </header>
+        <main>
+            <div class="titrePage">
+                <h2>Coques de Téléphone</h2>
+                <p class="paragraphe-voir-plus">Protégez votre téléphone avec style et faites-en un accessoire de mode.
+                    Nos coques de téléphone
+                    allient protection et style. Il est souvent difficile de trouver le bon compromis mais nous l’avons
+                    fait ! Chez BURG...
+                </p>
+                <button id="btn-voir-plus">VOIR PLUS</button>
+            </div>
+            <div class="titrePageOffre">
+                <p><b>Offre signature BURGA</b> : achetez 4 coques de téléphone, payez-en seulement 2 I Aucun code n'est
+                    nécessaire
+                </p>
+            </div>
+            <div class="liste-produits">
 
+            </div>
+            <div class="footer-promesse">
+                <div><img src="images/qualitépremium.webp" alt="logo diamant">
+                    <p>Qualité <br>Premium</p>
+                </div>
+                <div><img src="images/avion.webp" alt="logo avion">
+                    <p>Livraison gratuite <br>à partir de 70€</p>
+                </div>
+                <div><img src="images/cadenas.webp" alt="logo cadenas">
+                    <p>Paiement <br>100% sécurisé</p>
+                </div>
+                <div><img src="images/garentie.webp" alt="logo garantie">
+                    <p>Garantie <br> jusqu'à 12 mois</p>
+                </div>
+            </div>
+            <div class="footer-insta">
+                <img class="logo-insta" src="images/instagram_1400829.png" alt="logo insta">
+                <p>Rejoingez <b>+ 765K</b> abbonés en suivant <b>@burgaofficiel
+                    </b></p>
+            </div>
+            <div class="main-content">
+                <div class="slideshow-contenair">
+                    <div class="slideshow">
+                        <div class="slide s1">
+                        </div>
+                        <div class="slide s2">
+                        </div>
+                        <div class="slide s3">
+                        </div>
+                        <div class="slide s4">
+                        </div>
+                        <div class="slide s5">
+                        </div>
+                        <div class="slide s6">
+                        </div>
+                        <div class="slide s7">
+                        </div>
+                        <div class="slide s8">
+                        </div>
+                        <div class="slide s9">
+                        </div>
+                        <div class="slide s10">
+                        </div>
+                        <div class="slide s12">
+                        </div>
+
+                        <div class="slide s1">
+                        </div>
+                        <div class="slide s2">
+                        </div>
+                        <div class="slide s3">
+                        </div>
+                        <div class="slide s4">
+                        </div>
+                        <div class="slide s5">
+                        </div>
+                        <div class="slide s6">
+                        </div>
+                        <div class="slide s7">
+                        </div>
+                        <div class="slide s8">
+                        </div>
+                        <div class="slide s9">
+                        </div>
+                        <div class="slide s10">
+                        </div>
+                        <div class="slide s12">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+        <footer>
+            <div class="contenair-footer">
+                <div class="footer-logo">
+                    <h5>BURGA</h5>
+                    <p>©2024 BURGA Tous droits résérvés</p>
+                    <button class="footer-btn"><img class="drapeau-français" src="images/Round France Flag.svg"
+                            alt="drapeau français">EURO</button>
+                </div>
+                <div class="footer-paiement">
+                    <p><b>MOYENS DE PAIEMENT</b></p><br>
+                    <img src="images/symbols_39196.png" alt="logo visa">
+                    <img src="images/card_15397233.png" alt="logo master card">
+                    <img src="images/symbole.png" alt="logo american express">
+                    <img src="images/apple-paie.png" alt="logo apple pay">
+                    <img src="images/carte.png" alt="logo paypal"><br>
+                    <p><b>SERVICES DE LIVRAISON</b></p><br>
+                    <img class="footer-logo-image" src="images/DHL Group.svg" alt="">
+                    <img class="footer-logo-image" src="images/DPD Dynamic Parcel Distribution.svg" alt="">
+                    <img class="footer-logo-image" src="images/UPS Icon.svg" alt="">
+                </div>
+                <div class="footer-1-ul">
+                    <ul>
+                        <li>PRODUITS</li>
+                        <li>COQUES DE TÉLÉPHONE</li>
+                        <li>COQUES POUR ÉCOUTEURS</li>
+                        <li>BAGUES DE TÉLÉPHONE</li>
+                        <li>BATTERIES EXTERNES MAGNÉTIQUES</li>
+                        <li>COQUES D'IPAD></li>
+                        <li>COQUES POUR MACKBOOK</li>
+                        <li>HOUSSES D'ORDINATEUR</li>
+                        <li>CARNETS DE NOTES</li>
+                        <li>BRACELTS DE MONTRE</li>
+                        <li>BOUTEILLES ET MUGS</li>
+                        <li>LUNETTES</li>
+                        <li>COQUES DE TÉLÉPHONE PERSONNALISÉES</li>
+                        <li>PROTECTIONS D'ÉCRAN</li>
+                        <li>CHARGEURS</li>
+                        <li>E-CARTE CADEAU</li>
+                    </ul>
+                </div>
+                <div class="footer-2-ul">
+                    <ul>
+                        <li>COLLECTIONS</li>
+                        <li>RESORT</li>
+                        <li>LITTLE THINGS</li>
+                        <li>PEACHY</li>
+                        <li>SECRET GARDEN</li>
+                        <li>LA MUSE</li>
+                        <li>REBEL</li>
+                        <li>EL SOL</li>
+                        <li>CHECKERS</li>
+                        <li>COASTAL</li>
+                        <li>INSTINCT</li>
+                        <li>SUNDAYS CLUB</li>
+                        <li>OCEANIC</li>
+                        <li>NOSTALGIA</li>
+                        <li>AMOR</li>
+                        <li>BLOOM</li>
+                        <li>LA DOLCE VITA</li>
+                        <li>ZODIAC</li>
+                        <li>POUR LUI</li>
+                    </ul>
+                </div>
+                <div class="footer-3-ul">
+                    <ul>
+                        <li>AIDE & CONTACTS</li>
+                        <li>MON COMPTE</li>
+                        <li>FAQ</li>
+                        <li>NOUS CONTACTER</li>
+                        <li>AVIS CLIENTS</li>
+                        <li>EXPÉDITION ET LIVRAISON</li>
+                        <li>À PROPOS DE NOUS</li>
+                        <li>POLITIQUE DE RETOUR</li>
+                        <li>CONDITIONS GÉNÉRALES </li>
+                        <li>POLITIQUE DE CONFIDENTIALITÉ</li>
+                        <li>RÉDUCTION POUR LES ÉTUDIANTS</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </div>
-
-
 </body>
 
 </html>

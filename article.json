@@ -1,0 +1,278 @@
+[
+    {
+        "id": "1",
+        "nom": "Lemon Tart",
+        "catégorie": "Coque de Téléphone",
+        "prix": "45",
+        "image": [
+            "images/lemontart1.webp",
+            "images/lemontart2.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "Découvrez votre nouvel accessoire de mode ! Nos coques de téléphone sont l’accessoire parfait pour égayer une tenue. Et elles ne sont pas seulement belles, elles offrent une protection ultime à votre téléphone des chocs et des rayures du quotidien ! Douces au toucher, nos coques pour iPhone 15 sont fines et faites pour durer dans le temps. Choisissez enfin une coque de téléphone qui vous ressemble !"
+    },
+    {
+        "id": "2",
+        "nom": "Almond Latte",
+        "catégorie": "Coque de Téléphone",
+        "prix": "45",
+        "image": [
+            "images/almondlatte1.webp",
+            "images/almondlatte2.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "Découvrez votre nouvel accessoire de mode ! Nos coques de téléphone sont l’accessoire parfait pour égayer une tenue. Et elles ne sont pas seulement belles, elles offrent une protection ultime à votre téléphone des chocs et des rayures du quotidien ! Douces au toucher, nos coques pour iPhone 15 sont fines et faites pour durer dans le temps. Choisissez enfin une coque de téléphone qui vous ressemble !"
+    },
+    {
+        "id": "3",
+        "nom": "Beach Please",
+        "catégorie": "Coque de Téléphone",
+        "prix": "45",
+        "image": [
+            "images/beach1.webp",
+            "images/beach2.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "Découvrez votre nouvel accessoire de mode ! Nos coques de téléphone sont l’accessoire parfait pour égayer une tenue. Et elles ne sont pas seulement belles, elles offrent une protection ultime à votre téléphone des chocs et des rayures du quotidien ! Douces au toucher, nos coques pour iPhone 15 sont fines et faites pour durer dans le temps. Choisissez enfin une coque de téléphone qui vous ressemble !"
+    },
+    {
+        "id": "4",
+        "nom": "Island Girl",
+        "catégorie": "Coque de Téléphone",
+        "prix": "45",
+        "image": [
+            "images/island1.webp",
+            "images/island2.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "Découvrez votre nouvel accessoire de mode ! Nos coques de téléphone sont l’accessoire parfait pour égayer une tenue. Et elles ne sont pas seulement belles, elles offrent une protection ultime à votre téléphone des chocs et des rayures du quotidien ! Douces au toucher, nos coques pour iPhone 15 sont fines et faites pour durer dans le temps. Choisissez enfin une coque de téléphone qui vous ressemble !"
+    },
+    {
+        "id": "5",
+        "nom": "Sunbreak",
+        "catégorie": "Coque de Téléphone",
+        "prix": "45",
+        "image": [
+            "images/sun1.webp",
+            "images/sun2.webp.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "Découvrez votre nouvel accessoire de mode ! Nos coques de téléphone sont l’accessoire parfait pour égayer une tenue. Et elles ne sont pas seulement belles, elles offrent une protection ultime à votre téléphone des chocs et des rayures du quotidien ! Douces au toucher, nos coques pour iPhone 15 sont fines et faites pour durer dans le temps. Choisissez enfin une coque de téléphone qui vous ressemble !"
+    },
+    {
+        "id": "6",
+        "nom": "Lemon Tart - Bague de téléphone",
+        "catégorie": "Bague",
+        "prix": "25",
+        "image": [
+            "images/lemonbague1.webp",
+            "images/lemonbague2.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "Chaque année, la taille des téléphones ne cesse d’augmenter ce qui le rend de plus en plus difficile à prendre en main. Et soyons honnêtes, à chaque fois qu’on fait tomber son téléphone, le monde autour de nous s’arrête un instant, par peur de casser son écran. Alors comment l’éviter ?"
+    },
+    {
+        "id": "7",
+        "nom": "Senorita - Bague de téléphone",
+        "catégorie": "Bague",
+        "prix": "25",
+        "image": [
+            "images/senorita1.webp",
+            "images/senorita2.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "Chaque année, la taille des téléphones ne cesse d’augmenter ce qui le rend de plus en plus difficile à prendre en main. Et soyons honnêtes, à chaque fois qu’on fait tomber son téléphone, le monde autour de nous s’arrête un instant, par peur de casser son écran. Alors comment l’éviter ?"
+    },
+    {
+        "id": "8",
+        "nom": "Sunset Club - Bague de téléphone",
+        "catégorie": "Bague",
+        "prix": "25",
+        "image": [
+            "images/sunset1.webp",
+            "images/sunset2.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "Chaque année, la taille des téléphones ne cesse d’augmenter ce qui le rend de plus en plus difficile à prendre en main. Et soyons honnêtes, à chaque fois qu’on fait tomber son téléphone, le monde autour de nous s’arrête un instant, par peur de casser son écran. Alors comment l’éviter ?"
+    },
+    {
+        "id": "9",
+        "nom": "Ocean Cowboy",
+        "catégorie": "Bague",
+        "prix": "25",
+        "image": [
+            "images/ocean1.webp",
+            "images/ocean2.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "Chaque année, la taille des téléphones ne cesse d’augmenter ce qui le rend de plus en plus difficile à prendre en main. Et soyons honnêtes, à chaque fois qu’on fait tomber son téléphone, le monde autour de nous s’arrête un instant, par peur de casser son écran. Alors comment l’éviter ?"
+    },
+    {
+        "id": "10",
+        "nom": "Bonita - Bague de téléphone",
+        "catégorie": "Bague",
+        "prix": "25",
+        "image": [
+            "images/bonita1.webp",
+            "images/bonita2.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "Chaque année, la taille des téléphones ne cesse d’augmenter ce qui le rend de plus en plus difficile à prendre en main. Et soyons honnêtes, à chaque fois qu’on fait tomber son téléphone, le monde autour de nous s’arrête un instant, par peur de casser son écran. Alors comment l’éviter ?"
+    },
+    {
+        "id": "11",
+        "nom": "Lemon Tart - Coque Airpods",
+        "catégorie": "Coque Airpods",
+        "prix": "25",
+        "image": [
+            "images/lemoncoque1.webp",
+            "images/lemoncoque2.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "Conçues pour les passionnés de mode, nos coques pour écouteurs protègent vos Apple Airpod Generation 1 & 2 des chocs et des rayures du quotidien. Avec BURGA, écoutez votre musique en toute tranquillité et avec style ! Il ne vous reste plus qu’à choisir votre design préféré parmi notre large gamme."
+    },
+    {
+        "id": "12",
+        "nom": "Sunset Club - Coque Airpods",
+        "catégorie": "Coque Airpods",
+        "prix": "25",
+        "image": [
+            "images/coquesunset1.webp",
+            "images/coquesunset2.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "Conçues pour les passionnés de mode, nos coques pour écouteurs protègent vos Apple Airpod Generation 1 & 2 des chocs et des rayures du quotidien. Avec BURGA, écoutez votre musique en toute tranquillité et avec style ! Il ne vous reste plus qu’à choisir votre design préféré parmi notre large gamme."
+    },
+    {
+        "id": "13",
+        "nom": "La Playa - Coque Airpods",
+        "catégorie": "Coque Airpods",
+        "prix": "25",
+        "image": [
+            "images/playa1.webp",
+            "images/playa2.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "Conçues pour les passionnés de mode, nos coques pour écouteurs protègent vos Apple Airpod Generation 1 & 2 des chocs et des rayures du quotidien. Avec BURGA, écoutez votre musique en toute tranquillité et avec style ! Il ne vous reste plus qu’à choisir votre design préféré parmi notre large gamme."
+    },
+    {
+        "id": "14",
+        "nom": "Salaway - Coque Airpods",
+        "catégorie": "Coque Airpods",
+        "prix": "25",
+        "image": [
+            "images/salaway1.webp",
+            "images/salaway2.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "Conçues pour les passionnés de mode, nos coques pour écouteurs protègent vos Apple Airpod Generation 1 & 2 des chocs et des rayures du quotidien. Avec BURGA, écoutez votre musique en toute tranquillité et avec style ! Il ne vous reste plus qu’à choisir votre design préféré parmi notre large gamme."
+    },
+    {
+        "id": "15",
+        "nom": "Me Gusta Tu - Coque Airpods",
+        "catégorie": "Coque Airpods",
+        "prix": "25",
+        "image": [
+            "images/gusta1.webp",
+            "images/gusta2.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "Conçues pour les passionnés de mode, nos coques pour écouteurs protègent vos Apple Airpod Generation 1 & 2 des chocs et des rayures du quotidien. Avec BURGA, écoutez votre musique en toute tranquillité et avec style ! Il ne vous reste plus qu’à choisir votre design préféré parmi notre large gamme."
+    },
+    {
+        "id": "16",
+        "nom": "Love Me MacBook",
+        "catégorie": "Coque MacBook",
+        "prix": "35",
+        "image": [
+            "images/love1.webp",
+            "images/love2.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "La coque BURGA pour Macbook est l'accessoire indispensable pour protéger votre ordinateur des chocs et des rayures du quotidien. La coque est fournie avec deux protections : l’une pour protéger le dessus et l’autre pour protéger le dessous de votre ordinateur"
+    },
+    {
+        "id": "17",
+        "nom": "Splash MacBook",
+        "catégorie": "Coque MacBook",
+        "prix": "35",
+        "image": [
+            "images/splash1.webp",
+            "images/splash2.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "La coque BURGA pour Macbook est l'accessoire indispensable pour protéger votre ordinateur des chocs et des rayures du quotidien. La coque est fournie avec deux protections : l’une pour protéger le dessus et l’autre pour protéger le dessous de votre ordinateur"
+    },
+    {
+        "id": "18",
+        "nom": "Cherry Bomb",
+        "catégorie": "Housse Ordinateur",
+        "prix": "109",
+        "image": [
+            "images/cherry1.webp",
+            "images/cherry2.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "Notre housse d’ordinateur a survécu à 26 chutes de plus d’1m de hauteur grâce à notre propre technologie d’absorption des chocs « CloudShield » et sa doublure douce en microfibre."
+    },
+    {
+        "id": "19",
+        "nom": "Sun Dress",
+        "catégorie": "Housse Ordinateur",
+        "prix": "109",
+        "image": [
+            "images/sundress.webp",
+            "images/sundress2.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "La coque BURGA pour Macbook est l'accessoire indispensable pour protéger votre ordinateur des chocs et des rayures du quotidien. La coque est fournie avec deux protections : l’une pour protéger le dessus et l’autre pour protéger le dessous de votre ordinateur"
+    },
+    {
+        "id": "20",
+        "nom": "Dark Mode",
+        "catégorie": "Bouteille",
+        "prix": "19",
+        "image": [
+            "images/dark1.webp",
+            "images/dark2.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "Hydratez-vous tout en respectant l’environnement avec BURGA. Nos bouteilles d’eau isothermes  sans BPA et  sans goût métallique sont le compagnon idéal à emporter partout avec vous ! "
+    },
+    {
+        "id": "21",
+        "nom": "Blush Pink",
+        "catégorie": "Bouteille",
+        "prix": "19",
+        "image": [
+            "images/pink.webp",
+            "images/pink2.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "Hydratez-vous tout en respectant l’environnement avec BURGA. Nos bouteilles d’eau isothermes  sans BPA et  sans goût métallique sont le compagnon idéal à emporter partout avec vous ! "
+    },
+    {
+        "id": "22",
+        "nom": "Chargeur sans fil",
+        "catégorie": "Chargeur",
+        "prix": "36",
+        "image": [
+            "images/chargeur1.webp",
+            "images/chargeur2.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "Découvrez l’incontournable chargeur sans fil BURGA. En plus d’être performant, il est élégant. Son design minimaliste et chic se fond parfaitement dans n’importe quel intérieur. C’est la station de charge idéale pour recharger tous vos appareils compatibles Qi avec style. "
+    },
+    {
+        "id": "23",
+        "nom": "Câble de chargement",
+        "catégorie": "Chargeur",
+        "prix": "22",
+        "image": [
+            "images/rose2.webp",
+            "images/rose1.webp",
+            "images/bag-check-fill.svg"
+        ],
+        "description": "Les câbles de chargement sont souvent ennuyeux, se cassent rapidement et sont de mauvaise qualité. Chez BURGA, nos câbles de chargement sont beaux, de qualité supérieure et capables de résister à l’usure du quotidien."
+    }
+]
