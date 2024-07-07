@@ -146,8 +146,9 @@ span img {
     left: auto;
     bottom: 0;
     display: flex;
-    justify-content: center;
-    text-align: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* text-align: center; */
     background-color: white;
     transition: all 0.5s ease;
     overflow: auto;
@@ -193,6 +194,10 @@ span img {
     background-color: yellow;
     border: none;
     font-weight: 800;
+}
+
+.prduitPanier {
+    position: relative;
 }
 
 .header-liste ul {
@@ -280,6 +285,10 @@ span img {
     height: 430px;
 
 
+}
+
+.imageClasse {
+    width: 100px;
 }
 
 .produit img h4 {
