@@ -1,32 +1,6 @@
-const  btnMenu=document.getElementById('btn-menu')
-const menu =document.querySelector('.menu')
-const boutonCloseMenu=document.querySelector('.boutonClose')
 const contenuePanier = document.querySelector('.contenuePanier')
 const chiffrePanier = document.querySelector('.quantité-bag-panier')
 const chiffrePanierPage = document.querySelector('.quantité-bag')
-function ouvrirPanierMenu(){
-    btnMenu.addEventListener('click',()=>{
-        menu.classList.toggle('open')
-       
-    })
-    boutonCloseMenu.addEventListener('click',()=>{
-        menu.classList.toggle('open')
-    })
-    
-    const btnPanier=document.querySelector('.btn-quantité')
-    const panierPop=document.querySelector('.panier')
-    const btnPanierClose=document.querySelector('.panier-close')
-    btnPanier.addEventListener('click', ()=>{
-    panierPop.classList.toggle('open')
-    })
-    btnPanierClose.addEventListener('click',()=>{
-        panierPop.classList.toggle('open')
-    })
-    }
-    ouvrirPanierMenu()
-    // ----------------------
-
-
 
 let listProductHTML = document.querySelector('.liste-produits');
 let listCartHTML = document.querySelector('.contenuePanier');
@@ -106,17 +80,18 @@ const addCartToHTML = () => {
 
                     <img class="imageClasse" src="${info.image[0]}">
                 
-                <p class= "titreClasse">
+                <p class= "titreClassePanier">
                 ${info.nom}<p/>
-                <p class="catégorieClasse" >${info.catégorie}</p>
+                <p class="catégorieClassePanier" >${info.catégorie}</p>
                 
-                <div class="totalPrice">$${info.prix * item.quantity}</div>
+                <div class="totalPricePanier">$${info.prix * item.quantity}</div>
                 <div class="quantité">
                     <button class="minus">-</button>
                     <span>${item.quantity}</span>
                     <button class="plus">+</button>
                 </div>
-            `;
+                
+            `;  
             totalPanier.innerText= totalQuantity*info.prix*item.quantity
             
            
@@ -178,23 +153,3 @@ const initApp = () => {
     })
 }
 initApp();
-
-// Bouton pour déplier le paragraphe du titre de l'article
-const paragrapheVoirPlus=document.querySelector('.paragraphe-voir-plus')
-const btnVoirPlus=document.getElementById('btn-voir-plus')
-
-function changeTexteBouton(){
-    let boutonVoirPlus=true
-    
-    btnVoirPlus.addEventListener('click',()=>{
-    if(boutonVoirPlus){
-        btnVoirPlus.textContent="VOIR MOINS"
-        paragrapheVoirPlus.textContent="Protégez votre téléphone avec style et faites-en un accessoire de mode. Nos coques de téléphone allient protection et style. Il est souvent difficile de trouver le bon compromis mais nous l’avons fait ! Chez BURGA nous créons des accessoires à la pointe de la tendance, qui sont conçus pour durer dans le temps. Tous nos designs sont l'œuvre d’un de nos artistes et réfléchis pour s’adapter au style et à la personnalité de chacun dans le but de renforcer l’estime de soi. Quel que soit le modèle de votre téléphone : iPhone, Samsung Galaxy ou autre, faites votre choix parmi plus de 200 designs !"
-    }else{
-        btnVoirPlus.textContent="VOIR PLUS"
-        paragrapheVoirPlus.textContent="Protégez votre téléphone avec style et faites-en un accessoire de mode. Nos coques de téléphone allient protection et style. Il est souvent difficile de trouver le bon compromis mais nous l’avons fait ! Chez BUR..."
-    }
-    boutonVoirPlus=!boutonVoirPlus
- })
-}
-changeTexteBouton()
