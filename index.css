@@ -12,7 +12,10 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-
+a {
+    text-decoration: none;
+    color: black;
+}
 
 .contenair {
     /* position: relative; */
@@ -24,6 +27,16 @@ header {
     top: 0;
     background-color: white;
     z-index: 11;
+}
+
+.livraison-gratuite {
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
@@ -191,7 +204,6 @@ span img {
 
 .btn-explorez-produits {
     padding: 20px;
-    color: black;
     background-color: yellow;
     border: none;
     font-weight: 800;
@@ -203,17 +215,19 @@ span img {
 
 .header-liste ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 15px 5px;
     list-style-type: none;
     padding: 20px 0;
 }
 
-.header-liste ul li a {
-    text-decoration: none;
+.header-liste button {
+    border: none;
     font-size: 12px;
     color: black;
     font-weight: bold;
+    background-color: white;
+    cursor: pointer;
 }
 
 
@@ -290,6 +304,7 @@ span img {
 
 .imageClasse {
     width: 100px;
+    cursor: pointer;
 }
 
 .produit img h4 {
@@ -495,21 +510,51 @@ span img {
 .item {
     display: flex;
     margin: 20px 0;
-    padding-left: 10px;
+    padding: 15px 10px;
+}
+
+.titreClassePanier {
+    font-weight: bold;
 }
 
 .panierSansImage {
-    flex-direction: column;
+    padding-left: 15px;
+
+}
+
+.catégorieClassePanier {
+    font-size: 12px;
+    padding: 5px 0;
 }
 
 .totalPanier {
-    margin-bottom: 20px;
+    padding-bottom: 15px;
 }
 
-.totalPanier::before {
+/* .totalPanier::before {
     content: "TOTAL : "
 }
 
 .totalPanier::after {
     content: " €"
+} */
+
+.totalPricePanier {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.plus,
+.minus {
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.plus {
+    padding-left: 5px;
+}
+
+.minus {
+    padding-right: 5px;
 }

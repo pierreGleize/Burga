@@ -2,7 +2,7 @@
 const paragrapheVoirPlus=document.querySelector('.paragraphe-voir-plus')
 const btnVoirPlus=document.getElementById('btn-voir-plus')
 
-function changeTexteBouton(){
+
     let boutonVoirPlus=true
     
     btnVoirPlus.addEventListener('click',()=>{
@@ -15,5 +15,4 @@ function changeTexteBouton(){
     }
     boutonVoirPlus=!boutonVoirPlus
  })
-}
-changeTexteBouton()
+
