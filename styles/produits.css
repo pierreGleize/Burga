@@ -226,18 +226,19 @@ span img {
 .header-liste ul {
     display: flex;
     justify-content: space-around;
-    margin: 15px 5px;
+    margin: 15px;
     list-style-type: none;
-    padding: 20px 0;
+    padding-bottom: 12px;
 }
 
-.header-liste button {
+.header-liste li {
     border: none;
     font-size: 12px;
     color: black;
     font-weight: bold;
     background-color: white;
     cursor: pointer;
+    padding: 0 10px;
 }
 
 
@@ -356,7 +357,7 @@ span img {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    margin: 80px 0;
+    margin: 60px 0;
 }
 
 .footer-promesse img {
@@ -456,18 +457,6 @@ span img {
 
 }
 
-.footer-logo button {
-    width: 130px;
-    height: 30px;
-    border: 1px solid white;
-    background-color: #4c4c4c;
-    color: white;
-    text-align: left;
-}
-
-.drapeau-français {
-    width: 20px;
-}
 
 
 .footer-paiement img {
@@ -495,6 +484,7 @@ span img {
 .contenair-footer li {
     margin-bottom: 15px;
     font-size: 13px;
+    cursor: pointer;
 }
 
 .contenair-footer li:nth-child(1) {
@@ -567,4 +557,18 @@ span img {
 
 .minus {
     padding-right: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    
+    .header-liste li{
+    font-size: 8px;    
+}
+}
+
+@media (max-width: 580px) {
+    .header-liste li{
+        padding: 0 5px;
+        font-size: 6px;    
+    }
 }

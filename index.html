@@ -7,9 +7,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="./styles/produits.css">
     <link rel="stylesheet" href="./styles/index.css">
+
     <script defer type="module" src="./script.js/boutonMenuPanier.js"></script>
     <!-- <script defer type="module" src="./script.js/main.js"></script> -->
     <script defer type="module" src="./script.js/carousselle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
 </head>
 
 <body>
@@ -72,9 +75,10 @@
             <div class="header">
                 <div class="btn-menu-loupe">
                     <button id="btn-menu"><img src="images/list.svg" alt=""></button>
+                  
                     <button><img src="images/search.svg" alt=""></button>
                 </div>
-                <h1><a href="produits.html">BURGA</a></h1>
+                <h1><a href="#">BURGA</a></h1>
                 <div class="btn-profil-caddie">
                     <button><img src="images/person.svg" alt=""></button>
                     <button class="btn-quantité"><img src="images/bag-fill.svg" alt=""><span
@@ -85,53 +89,13 @@
             <div class="header-liste">
                 <nav>
                     <ul>
-                        <li>
-                            <a href="produits.html">
-                                <button id="téléphone">
-                                    COQUES DE TÉLÉPHONE
-
-                                </button>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="produits.html">
-                                <button id="bague">
-                                    BAGUES DE TÉLÉPHONE
-                                </button>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="produits.html">
-                                <button id="écouteur">
-                                    COQUES POUR ÉCOUTEURS
-                                </button>
-                            </a>
-                        </li>
-                        <li><a href="produits.html">
-                                <button id="macbook">
-                                    COQUES POUR MACBOOK
-                                </button>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="produits.html">
-                                <button id="ordinateur">
-                                    HOUSES D'ORDINATEUR
-                                </button>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="produits.html">
-                                <button id="bouteille">
-                                    BOUTEILLES ET MUGS
-                                </button>
-                            </a>
-                        </li>
-                        <li><a href="produits.html">
-                                <button id="chargeur">
-                                    CHAGEURS
-                                </button></a>
-                        </li>
+                        <li><a  id="téléphone" href="produits.html">COQUES DE TÉLÉPHONE</a></li>
+                        <li><a href="produits.html" id="bague">BAGUES DE TÉLÉPHONE</a></li>
+                        <li><a href="produits.html"id="écouteur">COQUES POUR ÉCOUTEURS</a></li>
+                        <li><a href="produits.html"id="macbook">COQUES POUR MACBOOK</a></li>
+                        <li><a href="produits.html" id="ordinateur">HOUSES D'ORDINATEUR </a></li>
+                        <li><a href="produits.html" id="bouteille">BOUTEILLES ET MUGS</a></li>
+                        <li><a href="produits.html" id="chargeur">CHAGEURS</a></li>
                     </ul>
                 </nav>
 
@@ -158,9 +122,83 @@
                     <li></li>
                 </ul>
             </div>
+           
+            <div class="commentaire">
+                <img class="commentaire-img" src="images/customer-avatars.avif" alt="image">
+                <p>"La meilleure coque de téléphone ! La qualité est exceptionnelle et les designs sont magnifiques. <br>Je recommande !"</p>
+                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>4/5 sur + de 15 000 avis</p>
+            </div>
+        <div class="contenair-images">
+            <div class="bg-images">
+                <img class="bg-image-com1" src="images/combg1.webp" alt="">
+               </div> 
+                <div class="bg-images2">
+                    <img src="images/combg2.webp" alt="">
+                    <h2 class="text-overlay text1">Coques de téléphone</h2>
+                    <span class="bouton-overlay bouton1">DÉCOUVRIR</span>
+                    <img src="images/combg3.webp" alt="">
+                    <h2 class="text-overlay text2">Coques pour écouteurs</h2>
+                    <span class="bouton-overlay bouton2">DÉCOUVRIR</span>
+                </div>
+                <div class="bg-images3">
+                    <div class="bg-overlay">
+                        <img src="images/combg4.webp" alt="">
+                        <h2 class="text-overlay1 text3">Batteries<br>externes<br>magnétiques</h2>
+                        <span class="bouton-overlay1 bouton3">DÉCOUVRIR</span>
+                    </div>
+                    <div class="bg-overlay">
+                        <img src="images/combg5.webp" alt="">
+                        <h2 class="text-overlay1 text4">Bagues de<br>téléphone</h2>
+                        <span class="bouton-overlay1 bouton3">DÉCOUVRIR</span>
+                    </div>
+                    <div class="bg-overlay">
+                        <img src="images/combg6.webp" alt="">
+                        <h2 class="text-overlay1 text3">Coques pour<br>tablette</h2>
+                        <span class="bouton-overlay1 bouton3">DÉCOUVRIR</span>
+                    </div>
+                    <div class="bg-overlay">
+                        <img src="images/combg7.webp" alt="">
+                        <h2 class="text-overlay1 text3">Protection<br>d'ordinateur</h2>
+                        <span class="bouton-overlay1 bouton3">DÉCOUVRIR</span>
+                    </div>
+                    <div class="bg-overlay">
+                        <img src="images/combg8.webp" alt="">
+                        <h2 class="text-overlay1 text3">Carnets de <br> notes</h2>
+                        <span class="bouton-overlay1 bouton3">DÉCOUVRIR</span>
+                    </div>
+                    <div class="bg-overlay">
+                        <img src="images/combg9maj.webp" alt="">
+                        <h2 class="text-overlay1 text3">Bouteille et <br> mugs</h2>
+                        <span class="bouton-overlay1 bouton3">DÉCOUVRIR</span>
+                    </div>
+                    <div class="bg-overlay">
+                        <img src="images/combg10maj.webp" alt="">
+                        <h2 class="text-overlay1 text3">Bracelets de <br> montre</h2>
+                        <span class="bouton-overlay1 bouton3">DÉCOUVRIR</span>
+                    </div>
+                    <div class="bg-overlay">
+                        <img src="images/combg11maj.webp" alt="">
+                        <h2 class="text-overlay1 text10">Lunettes</h2>
+                        <span class="bouton-overlay1 bouton3">DÉCOUVRIR</span>
+                    </div>
+                    
+                </div>
+                
+                  
+        </div>    
+        <div class="email">
+            <h3>NE RATEZ RIEN !</h3>
+            <p class="email-paragraphe1">Inscrivez-vous à la newsletter pour recevoir toutes les actualités et les dernières promos. <br> Et bénéficiez d’une réduction de 
+            10% sur votre première commande.</p>
+            <div>
+                <label for="email"class="sr-only">Adresse email</label>
+                <input id="email" aria-label="Email" type="mail" placeholder="toi@email.com">
+                <button type="submit">S'INSCRIRE</button>
+            </div>
+            <p class="email-paragraphe2">En saisissant mon adresse e-mail, j'accepte de recevoir des e-mails de la part de BURGA contenant des promotions <br> et autres offres spéciales</p>
 
+        </div>
 
-            <!--  -->
             <div class="footer-promesse">
                 <div><img src="images/qualitépremium.webp" alt="logo diamant">
                     <p>Qualité <br>Premium</p>
@@ -232,15 +270,22 @@
                 </div>
 
             </div>
-
+            <!--  -->
+            <div class="container">
+                <div class="search-bar">
+                  <input type="text" placeholder="Type here..." />
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <i class="fa-solid fa-xmark"></i>
+                </div>
+              </div>
+              <!--  -->
         </main>
         <footer>
             <div class="contenair-footer">
                 <div class="footer-logo">
                     <h5>BURGA</h5>
                     <p>©2024 BURGA Tous droits résérvés</p>
-                    <button class="footer-btn"><img class="drapeau-français" src="images/Round France Flag.svg"
-                            alt="drapeau français">EURO</button>
+                    
                 </div>
                 <div class="footer-paiement">
                     <p><b>MOYENS DE PAIEMENT</b></p><br>
@@ -261,7 +306,7 @@
                         <li>COQUES POUR ÉCOUTEURS</li>
                         <li>BAGUES DE TÉLÉPHONE</li>
                         <li>BATTERIES EXTERNES MAGNÉTIQUES</li>
-                        <li>COQUES D'IPAD></li>
+                        <li>COQUES D'IPAD</li>
                         <li>COQUES POUR MACKBOOK</li>
                         <li>HOUSSES D'ORDINATEUR</li>
                         <li>CARNETS DE NOTES</li>
