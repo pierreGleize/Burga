@@ -70,13 +70,17 @@ header {
     overflow: auto;
     background-color: white;
     /* height: 100%; */
-    z-index: 10;
+    z-index: 20;
 
 
 }
 
-.menu.open {
+.menu.active {
     left: 0;
+}
+
+.menu.active+.contenair {
+    opacity: 0.8;
 }
 
 .boutonClose {
@@ -154,6 +158,7 @@ span img {
 
 .panier {
     width: 400px;
+    height: 100%;
     position: fixed;
     right: -400px;
     top: 0;
@@ -163,10 +168,10 @@ span img {
     flex-direction: column;
     /* justify-content: center; */
     /* text-align: center; */
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     transition: all 0.5s ease;
     overflow: auto;
-    z-index: 10;
+    z-index: 20;
 }
 
 .panier-close {
@@ -185,6 +190,11 @@ span img {
 .panier.open {
     right: 0
 }
+
+/* 
+.panier.open .contenair {
+    opacity: 0.5;
+} */
 
 .panier h3 {
     margin: 20px 0;
@@ -216,18 +226,19 @@ span img {
 .header-liste ul {
     display: flex;
     justify-content: space-around;
-    margin: 15px 5px;
+    margin: 15px;
     list-style-type: none;
-    padding: 20px 0;
+    padding-bottom: 12px;
 }
 
-.header-liste button {
+.header-liste li {
     border: none;
     font-size: 12px;
     color: black;
     font-weight: bold;
     background-color: white;
     cursor: pointer;
+    padding: 0 10px;
 }
 
 
@@ -346,7 +357,7 @@ span img {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    margin: 80px 0;
+    margin: 60px 0;
 }
 
 .footer-promesse img {
@@ -382,48 +393,48 @@ span img {
 }
 
 .s1 {
-    background-image: url("images/photo1.avif");
+    background-image: url("/images/photo1.avif");
 }
 
 .s2 {
-    background-image: url("images/photo12.avif");
+    background-image: url("/images/photo12.avif");
 }
 
 .s3 {
-    background-image: url("images/photo3.avif");
+    background-image: url("/images/photo3.avif");
 }
 
 .s4 {
-    background-image: url("images/photo4.avif");
+    background-image: url("/images/photo4.avif");
 
 }
 
 .s5 {
-    background-image: url("images/photo5.avif");
+    background-image: url("/images/photo5.avif");
 }
 
 .s6 {
-    background-image: url("images/photo6.avif");
+    background-image: url("/images/photo6.avif");
 }
 
 .s7 {
-    background-image: url("images/photo7.avif");
+    background-image: url("/images/photo7.avif");
 }
 
 .s8 {
-    background-image: url("images/photo8.avif");
+    background-image: url("/images/photo8.avif");
 }
 
 .s9 {
-    background-image: url("images/photo9.avif");
+    background-image: url("/images/photo9.avif");
 }
 
 .s10 {
-    background-image: url("images/photo10.avif");
+    background-image: url("/images/photo10.avif");
 }
 
 .s12 {
-    background-image: url("images/photo12.avif");
+    background-image: url("/images/photo12.avif");
 
 }
 
@@ -446,18 +457,6 @@ span img {
 
 }
 
-.footer-logo button {
-    width: 130px;
-    height: 30px;
-    border: 1px solid white;
-    background-color: #4c4c4c;
-    color: white;
-    text-align: left;
-}
-
-.drapeau-français {
-    width: 20px;
-}
 
 
 .footer-paiement img {
@@ -485,6 +484,7 @@ span img {
 .contenair-footer li {
     margin-bottom: 15px;
     font-size: 13px;
+    cursor: pointer;
 }
 
 .contenair-footer li:nth-child(1) {
@@ -557,4 +557,18 @@ span img {
 
 .minus {
     padding-right: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    
+    .header-liste li{
+    font-size: 8px;    
+}
+}
+
+@media (max-width: 580px) {
+    .header-liste li{
+        padding: 0 5px;
+        font-size: 6px;    
+    }
 }

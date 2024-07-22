@@ -29,7 +29,7 @@ slider.addEventListener('mousemove', e => {
     slider.scrollLeft = alreadyLeftScroll - scrolled
     velocity = slider.scrollLeft - prevScrollLeft
 
-    infiniteScroll()
+    // infiniteScroll()
 
 })
 slider.addEventListener('mouseup', ()=>{
@@ -53,7 +53,7 @@ function stopTransition(){
 function decreasingTransition(){
     slider.scrollLeft += velocity
     velocity *= 0.95
-    infiniteScroll()
+    // infiniteScroll()
     if(Math.abs(velocity)>0.5){
         rafID = requestAnimationFrame(decreasingTransition)
     }
@@ -71,6 +71,9 @@ slider.addEventListener('touchend', ()=>{
     startTransition()
 })
 
+
+
+
 // slider.addEventListener('touchmove', e =>{
 //     if(!holding) return;
 //     const x = e.targetTouches[0].pageX - slider.offsetLeft
@@ -82,12 +85,12 @@ slider.addEventListener('touchend', ()=>{
 //     infiniteScroll()
 // })
 
-function infiniteScroll(){
-    const maxScrollLeft = slider.scrollWidth - slider.offsetWidth;
-    const slideWidth = slider.offsetWidth / totalSlides
-    if (slider.scrollLeft >= maxScrollLeft) {
-        slider.scrollLeft = slideWidth
-    } else if (slider.scrollLeft <= 0) {
-        slider.scrollLeft = maxScrollLeft - slideWidth
-    }
-}
+// function infiniteScroll(){
+//     const maxScrollLeft = slider.scrollWidth - slider.offsetWidth;
+//     const slideWidth = slider.offsetWidth / totalSlides
+//     if (slider.scrollLeft >= maxScrollLeft) {
+//         slider.scrollLeft = slideWidth
+//     } else if (slider.scrollLeft <= 0) {
+//         slider.scrollLeft = maxScrollLeft - slideWidth
+//     }
+// }
