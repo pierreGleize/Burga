@@ -128,9 +128,10 @@ margin: auto;
     border: 1px solid white;
     font-weight: 500;
     cursor: pointer;
-    &:hover{
-        
-    }
+}
+
+.bouton-overlay a , .bouton-overlay1 a{
+    color: white;
 }
 
 .text1{
@@ -302,6 +303,7 @@ margin: auto;
         font-size:0.6em;
         padding: 0.1rem;
     }
+    
 }
 
 @media (max-width: 580px) {
