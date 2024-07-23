@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/produits.css">
+    <link rel="stylesheet" href="./styles/formulaire.css">
     <script defer type="module" src="./script.js/boutonMenuPanier.js"></script>
-    <script defer type="module" src="./script.js/paragraphePlus.js"></script>
+    <!-- <script defer type="module" src="./script.js/paragraphePlus.js"></script> -->
     <script defer type="module" src="./script.js/main.js"></script>
-    <script defer type="module" src="./script.js/carousselle.js"></script>
+    <script defer type="module" src="script.js/carousselle.js"></script>
 </head>
 
 <body>
@@ -19,7 +20,7 @@
             <img class="panier-image" src="images/bag-fill.svg" alt=""><span class="quantité-bag-panier">-0</span>
             <h3 id="votrePanier">VOTRE PANIER EST VIDE</h3>
             <h4 class="totalPanier">Total: <span id="totalDuPanier">0</span>€</h4>
-            <button class="btn-explorez-produits" id="explorer-produit"><a href="#">EXPLOREZ NOS
+            <button class="btn-explorez-produits" id="explorer-produit"><a href="produits.html">EXPLOREZ NOS
                     PRODUITS</a></button>
         </div>
         <div class="contenuePanier"></div>
@@ -65,17 +66,21 @@
         
 
     </div>
+
+    <div class="recherche">
+        <button id="recherche-close">+</button>
+    </div>
     <div class="contenair">
         <header>
             <div class="livraison-gratuite">Livraison gratuite à partir de 70€</div>
             <div class="header">
                 <div class="btn-menu-loupe">
                     <button id="btn-menu"><img src="images/list.svg" alt=""></button>
-                    <button><img src="images/search.svg" alt=""></button>
+                    <button id="btn-loupe"><img src="images/search.svg" alt=""></button>
                 </div>
                 <h1><a href="index.html" class="header-titre-page">BURGA</a></h1>
                 <div class="btn-profil-caddie">
-                    <a href="formulaire.html"><img src="images/person.svg" alt=""></a>
+                    <a href="#"><img src="images/person.svg" alt=""></a>
                     <button class="btn-quantité"><img src="images/bag-fill.svg" alt=""><span
                             class="quantité-bag">0</span></button>
                 </div>
@@ -84,36 +89,42 @@
             <div class="header-liste">
                 <nav>
                     <ul>
-                        <li><a  id="téléphone">COQUES DE TÉLÉPHONE</a></li>
-                        <li><a id="bague">BAGUES DE TÉLÉPHONE</a></li>
-                        <li><a id="écouteur">COQUES POUR ÉCOUTEURS</a></li>
-                        <li><a id="macbook">COQUES POUR MACBOOK</a></li>
-                        <li><a  id="ordinateur">HOUSES D'ORDINATEUR </a></li>
-                        <li><a  id="bouteille">BOUTEILLES ET MUGS</a></li>
-                        <li><a  id="chargeur">CHAGEURS</a></li>
+                        <li><a  id="téléphone" href="produits.html">COQUES DE TÉLÉPHONE</a></li>
+                        <li><a href="produits.html" id="bague">BAGUES DE TÉLÉPHONE</a></li>
+                        <li><a href="produits.html"id="écouteur">COQUES POUR ÉCOUTEURS</a></li>
+                        <li><a href="produits.html"id="macbook">COQUES POUR MACBOOK</a></li>
+                        <li><a href="produits.html" id="ordinateur">HOUSES D'ORDINATEUR </a></li>
+                        <li><a href="produits.html" id="bouteille">BOUTEILLES ET MUGS</a></li>
+                        <li><a href="produits.html" id="chargeur">CHAGEURS</a></li>
                     </ul>
                 </nav>
 
             </div>
         </header>
         <main>
-            <div class="titrePage">
-                <h2 id="titreProduit">Tous nos produits</h2>
-                <p class="paragraphe-voir-plus">Protégez votre téléphone avec style et faites-en un accessoire de mode.
-                    Nos coques de téléphone
-                    allient protection et style. Il est souvent difficile de trouver le bon compromis mais nous l’avons
-                    fait ! Chez BURG...
-                </p>
-                <button id="btn-voir-plus">VOIR PLUS</button>
+            <div class="formulaire">
+                <div class="formulaire-gauche">
+                    <h3>Déjà client ?</h3>
+                        <div class="formulaire-gauche-input1">
+                            <label for="mail">E-mail:</label>
+                            <input id="mail" placeholder="E-mail" type="mail">
+                        </div>
+                        <div class="formulaire-gauche-input1">
+                            <label for="password">Mot de passe:</label>
+                            <input id="password" type="password" placeholder="Mot de passe">
+                        </div>
+                        <button type="submit">Je me connecte</button>
+                        <span>J'ai oublié mon de passe</span>
+                        <span>Pas de compte? Crées en un !</span>
+                </div>
+                <div class="formulaire-droite">
+                    <h3>Nouveau client ?</h3>
+                    <span>Profitez de tous les avantages BURGA, d’offres exclusives <br> et suivez vos commandes en un clic</span>
+                    <button type="button">Je crée un compte</button> 
+                </div>
             </div>
-            <div class="titrePageOffre">
-                <p><b>Offre signature BURGA</b> : achetez 4 coques de téléphone, payez-en seulement 2 I Aucun code n'est
-                    nécessaire
-                </p>
-            </div>
-            <div class="liste-produits">
 
-            </div>
+            
             <div class="footer-promesse">
                 <div><img src="images/qualitépremium.webp" alt="logo diamant">
                     <p>Qualité <br>Premium</p>
