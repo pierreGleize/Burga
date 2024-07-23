@@ -643,21 +643,21 @@ span img {
     .titrePage h2 {
         font-size: 2.5rem;
     }
-    /*  */
+    
     .produit{
         width: 180px;
         height: 300px;
     }.produit img:nth-child(1) {
         width: 170px;
     }
-    /*  */
+    
     .footer-promesse img {
         width: 20px;
     }
     .footer-promesse p{
         font-size: 12px;
     }
-    /*  */
+    
     .contenair-footer li{
         font-size: 8px;
         margin-bottom: 8px;
@@ -692,4 +692,4 @@ span img {
     }
     
     
-}
+} 
