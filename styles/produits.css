@@ -374,15 +374,15 @@ span img {
 .slideshow-contenair {
     overflow: hidden;
     min-height: 30vmin;
-    cursor: grab;
+    /* cursor: grab; */
     position: relative;
 
 }
 
-.slideshow-contenair:active {
+/* .slideshow-contenair:active {
     cursor: grabbing;
 
-}
+} */
 
 
 .slideshow {
