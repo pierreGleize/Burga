@@ -295,7 +295,7 @@ span img {
 }
 
 .produit img:nth-child(1) {
-    width: 280px;
+    /* width: 280px; */
 }
 
 .bagPlus {
@@ -321,7 +321,7 @@ span img {
 }
 
 .imageClasse {
-    /* width: 100px; */
+    width: 280px;
     cursor: pointer;
 }
 
@@ -520,13 +520,15 @@ span img {
 
 .item img {
     border: 1px solid black;
+    width: 95px;
+   margin: 0 20px;
 }
 
 .item {
     display: flex;
-    /* margin: 20px 0;
-    padding: 15px 10px; */
-    margin-bottom: 35px;
+     /* margin: 20px 0; */
+    padding: 16px 0 
+    /* margin-bottom: 35px; */
 }
 
 .titreClassePanier {
@@ -534,7 +536,7 @@ span img {
 }
 
 .panierSansImage {
-    padding-left: 15px;
+    /* padding-left: 20px; */
 
 }
 
@@ -643,21 +645,21 @@ span img {
     .titrePage h2 {
         font-size: 2.5rem;
     }
-    /*  */
+    
     .produit{
         width: 180px;
         height: 300px;
     }.produit img:nth-child(1) {
         width: 170px;
     }
-    /*  */
+    
     .footer-promesse img {
         width: 20px;
     }
     .footer-promesse p{
         font-size: 12px;
     }
-    /*  */
+    
     .contenair-footer li{
         font-size: 8px;
         margin-bottom: 8px;
@@ -692,4 +694,4 @@ span img {
     }
     
     
-}
+} 

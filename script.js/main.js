@@ -99,7 +99,7 @@ const addCartToHTML = () => {
 
       newItem.innerHTML = `
 
-                    <img class="imageClasse" src="${info.image[0]}">
+                    <img src="${info.image[0]}">
             <div class="panierSansImage">
                 <p class= "titreClassePanier">
                 ${info.nom}<p/>
