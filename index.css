@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 *,
 ::before,
@@ -18,8 +18,8 @@ a {
 }
 
 .contenair {
-     position: relative; 
-     flex-grow: 1; 
+    /* position: relative; */
+    /* flex-grow: 1; */
 }
 
 header {
@@ -571,4 +571,4 @@ span img {
         padding: 0 5px;
         font-size: 6px;    
     }
-} 
+}
