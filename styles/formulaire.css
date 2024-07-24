@@ -1,0 +1,92 @@
+.formulaire{
+    height:60vh;
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.formulaire-gauche{
+    width: 100%;
+    background-color: #f7f6f2;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formulaire-gauche h3{
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+.formulaire-gauche-input1{
+    width: 65%;
+    display:flex;
+    flex-direction: column;
+}
+.formulaire-gauche input{
+   background-color: #f7f6f2;
+   padding: 1em 0;
+   margin: 0.5em 0 1em 0;
+
+} 
+
+.formulaire-gauche button{
+    width: 65%;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 1.3em 0;
+    font-weight: 700;
+    margin-bottom: 2em;
+}
+
+
+.formulaire-gauche span{
+    font-size: 0.8rem;
+    text-decoration: underline;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+.formulaire-droite{
+    width: 100%;
+    background-color: #e8dfd3;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formulaire-droite button{
+    width: 65%;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 1.3em 0;
+    font-weight: 700;
+}
+
+.formulaire-droite h3{
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+.formulaire-droite span{
+    font-size: 0.9rem;
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+@media screen and (max-width: 780px) {
+    
+    .formulaire{
+        flex-direction: column;
+        height: auto;
+    }
+    .formulaire-droite, .formulaire-droite{
+        padding: 20px 0;
+    }
+    
+}

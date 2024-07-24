@@ -6,13 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styles/produits.css">
-    <link rel="stylesheet" href="./styles/index.css">
-
+    <link rel="stylesheet" href="./styles/formulaire.css">
     <script defer type="module" src="./script.js/boutonMenuPanier.js"></script>
-    <!-- <script defer type="module" src="./script.js/main.js"></script> -->
-    <script defer type="module" src="./script.js/carousselle.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
+    <!-- <script defer type="module" src="./script.js/paragraphePlus.js"></script> -->
+    <script defer type="module" src="./script.js/main.js"></script>
+    <script defer type="module" src="script.js/carousselle.js"></script>
 </head>
 
 <body>
@@ -31,9 +29,8 @@
         <button class="boutonClose"><img src="images/x-lg.svg" alt=""></button>
         <div class="menu-liste">
             <ul>
-                <li><a href=""><img class="menu-liste-image" src="images/COQUES tel rose.avif" alt="">
-                        COQUES DE TÉLÉPHONE<span><img src="images/arrow-right-short.svg" alt=""></span>
-                    </a></li>
+                <li><a href=""><img class="menu-liste-image" src="images/COQUES tel rose.avif" alt="">COQUES DE TÉLÉPHONE<span><img src="images/arrow-right-short.svg" alt=""></a>
+                    </li>
                 <li><a href=""><img class="menu-liste-image" src="images/bague tel.avif" alt="">
                         BAGUES DE TÉLÉPHONE<span><img src="images/arrow-right-short.svg" alt=""></span>
                     </a></li>
@@ -52,7 +49,7 @@
                 <li><a href=""><img class="menu-liste-image" src="images/chargeur.avif" alt="">
                         CHAGEURS<span><img src="images/arrow-right-short.svg" alt=""></span>
                     </a></li>
-
+            </div>
             </ul>
             <div class="menu-liste-navigation">
                 <a href="">MON COMPTE</a>
@@ -66,8 +63,12 @@
                 <a href="">POLITIQUE DE CONFIDENTIALITÉ</a>
                 <a href="">RÉDUCTION POUR LES ÉTUDIANTS</a>
             </div>
-        </div>
+        
 
+    </div>
+
+    <div class="recherche">
+        <button id="recherche-close">+</button>
     </div>
     <div class="contenair">
         <header>
@@ -75,12 +76,11 @@
             <div class="header">
                 <div class="btn-menu-loupe">
                     <button id="btn-menu"><img src="images/list.svg" alt=""></button>
-                  
-                    <button><img src="images/search.svg" alt=""></button>
+                    <button id="btn-loupe"><img src="images/search.svg" alt=""></button>
                 </div>
-                <h1><a href="#" class="header-titre-page">BURGA</a></h1>
+                <h1><a href="index.html" class="header-titre-page">BURGA</a></h1>
                 <div class="btn-profil-caddie">
-                    <a href="formulaire.html"><img src="images/person.svg" alt=""></a>
+                    <a href="#"><img src="images/person.svg" alt=""></a>
                     <button class="btn-quantité"><img src="images/bag-fill.svg" alt=""><span
                             class="quantité-bag">0</span></button>
                 </div>
@@ -102,103 +102,29 @@
             </div>
         </header>
         <main>
-            <!--  -->
-
-            <div class="slider">
-                <div class="list">
-                    <div class="item">
-                        <img src="images/bg-fille-1.webp" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/bg-2.webp" alt="">
-                    </div>
-                    <div class="item">
-                        <img src="images/bg-3.webp" alt="">
-                    </div>
+            <div class="formulaire">
+                <div class="formulaire-gauche">
+                    <h3>Déjà client ?</h3>
+                        <div class="formulaire-gauche-input1">
+                            <label for="mail">E-mail:</label>
+                            <input id="mail" placeholder="E-mail" type="mail">
+                        </div>
+                        <div class="formulaire-gauche-input1">
+                            <label for="password">Mot de passe:</label>
+                            <input id="password" type="password" placeholder="Mot de passe">
+                        </div>
+                        <button type="submit">Je me connecte</button>
+                        <span>J'ai oublié mon de passe</span>
+                        <span>Pas de compte? Crées en un !</span>
                 </div>
-                <ul class="dots">
-                    <li class="active"></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-           
-            <div class="commentaire">
-                <img class="commentaire-img" src="images/customer-avatars.avif" alt="image">
-                <p>"La meilleure coque de téléphone ! La qualité est exceptionnelle et les designs sont magnifiques. <br>Je recommande !"</p>
-                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>4/5 sur + de 15 000 avis</p>
-            </div>
-        <div class="contenair-images">
-            <div class="bg-images">
-                <img class="bg-image-com1" src="images/combg1.webp" alt="les valises burga">
-               </div> 
-                <div class="bg-images2">
-                    <img src="images/combg2.webp" alt="coques de téléphone">
-                    <h2 class="text-overlay text1">Coques de téléphone</h2>
-                    <span class="bouton-overlay bouton1"><a href="produits.html">DÉCOUVRIR</a></span>
-                    <img src="images/combg3.webp" alt="coque pour écouteurs">
-                    <h2 class="text-overlay text2">Coques pour écouteurs</h2>
-                    <span class="bouton-overlay bouton2">DÉCOUVRIR</span>
+                <div class="formulaire-droite">
+                    <h3>Nouveau client ?</h3>
+                    <span>Profitez de tous les avantages BURGA, d’offres exclusives <br> et suivez vos commandes en un clic</span>
+                    <button type="button">Je crée un compte</button> 
                 </div>
-                <div class="bg-images3">
-                    <div class="bg-overlay">
-                        <img src="images/combg4.webp" alt="batteries">
-                        <h2 class="text-overlay1 text3">Batteries<br>externes<br>magnétiques</h2>
-                        <span class="bouton-overlay1 bouton3"><a href="produits.html">DÉCOUVRIR</a></span>
-                    </div>
-                    <div class="bg-overlay">
-                        <img src="images/combg5.webp" alt="bagues de téléphone">
-                        <h2 class="text-overlay1 text4">Bagues de<br>téléphone</h2>
-                        <span class="bouton-overlay1 bouton3"><a href="produits.html">DÉCOUVRIR</a></span>
-                    </div>
-                    <div class="bg-overlay">
-                        <img src="images/combg6.webp" alt="coques pour tablette">
-                        <h2 class="text-overlay1 text3">Coques pour<br>tablette</h2>
-                        <span class="bouton-overlay1 bouton3"><a href="produits.html">DÉCOUVRIR</a></span>
-                    </div>
-                    <div class="bg-overlay">
-                        <img src="images/combg7.webp" alt="protection ordinateur">
-                        <h2 class="text-overlay1 text3">Protection<br>d'ordinateur</h2>
-                        <span class="bouton-overlay1 bouton3"><a href="produits.html">DÉCOUVRIR</a></span>
-                    </div>
-                    <div class="bg-overlay">
-                        <img src="images/combg8.webp" alt="carnets de notes">
-                        <h2 class="text-overlay1 text3">Carnets de <br> notes</h2>
-                        <span class="bouton-overlay1 bouton3"><a href="produits.html">DÉCOUVRIR</a></span>
-                    </div>
-                    <div class="bg-overlay">
-                        <img src="images/combg9maj.webp" alt="bouteille et mugs">
-                        <h2 class="text-overlay1 text3">Bouteille et <br> mugs</h2>
-                        <span class="bouton-overlay1 bouton3"><a href="produits.html">DÉCOUVRIR</a></span>
-                    </div>
-                    <div class="bg-overlay">
-                        <img src="images/combg10maj.webp" alt="bracelts de montre">
-                        <h2 class="text-overlay1 text3">Bracelets de <br> montre</h2>
-                        <span class="bouton-overlay1 bouton3"><a href="produits.html">DÉCOUVRIR</a></span>
-                    </div>
-                    <div class="bg-overlay">
-                        <img src="images/combg11maj.webp" alt="lunettes">
-                        <h2 class="text-overlay1 text10">Lunettes</h2>
-                        <span class="bouton-overlay1 bouton3"><a href="produits.html">DÉCOUVRIR</a></span>
-                    </div>
-                    
-                </div>
-                
-                  
-        </div>    
-        <div class="email">
-            <h3>NE RATEZ RIEN !</h3>
-            <p class="email-paragraphe1">Inscrivez-vous à la newsletter pour recevoir toutes les actualités et les dernières promos. <br> Et bénéficiez d’une réduction de 
-            10% sur votre première commande.</p>
-            <div>
-                <label for="email"class="sr-only">Adresse email</label>
-                <input id="email" aria-label="Email" type="mail" placeholder="toi@email.com">
-                <button type="submit">S'INSCRIRE</button>
             </div>
-            <p class="email-paragraphe2">En saisissant mon adresse e-mail, j'accepte de recevoir des e-mails de la part de BURGA contenant des promotions <br> et autres offres spéciales</p>
 
-        </div>
-
+            
             <div class="footer-promesse">
                 <div><img src="images/qualitépremium.webp" alt="logo diamant">
                     <p>Qualité <br>Premium</p>
@@ -270,7 +196,7 @@
                 </div>
 
             </div>
-           
+
         </main>
         <footer>
             <div class="contenair-footer">
@@ -291,7 +217,7 @@
                     <img class="footer-logo-image" src="images/DPD Dynamic Parcel Distribution.svg" alt="">
                     <img class="footer-logo-image" src="images/UPS Icon.svg" alt="">
                 </div>
-              <div class="footer-ul"> 
+                <div class="footer-ul"> 
                     <div class="footer-1-ul"> 
                         <ul>
                             <li>PRODUITS</li>
