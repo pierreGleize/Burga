@@ -69,7 +69,7 @@ slider.addEventListener("touchend", () => {
 // background top
 
 let slider1 = document.querySelector(".slider .list");
-let items = document.querySelectorAll(".slider .list .item");
+let items = document.querySelectorAll(".slider .list .item1");
 let dots = document.querySelectorAll(".slider .dots li");
 
 let lengthItems = items.length - 1;
