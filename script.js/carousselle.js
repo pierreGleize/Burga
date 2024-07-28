@@ -1,5 +1,5 @@
 const slider = document.querySelector(".slideshow-contenair");
-const slides = document.querySelector(".slide");
+const slides = document.querySelectorAll(".slide");
 const totalSlides = slides.length / 2;
 let holding = false;
 let fisrtClickX;
@@ -55,14 +55,31 @@ function decreasingTransition() {
   }
 }
 
-slider.addEventListener("touchestart", (e) => {
+slider.addEventListener("touchstart", (e) => {
   holding = true;
   fisrtClickX = e.targetTouches[0].pageX - slider.offsetLeft;
-  alreadyLeftScroll = slider.prevScrollLeft;
+  alreadyLeftScroll = slider.scrollLeft;
   stopTransition();
 });
+
+slider.addEventListener(
+  "touchmove",
+  (e) => {
+    // Modification: Ajout de l'événement "touchmove"
+    if (!holding) return;
+
+    const x = e.targetTouches[0].pageX - slider.offsetLeft;
+
+    const scrolled = (x - fisrtClickX) * 1;
+    const prevScrollLeft = slider.scrollLeft;
+    slider.scrollLeft = alreadyLeftScroll - scrolled;
+    velocity = slider.scrollLeft - prevScrollLeft;
+  },
+  { passif: true }
+);
+
 slider.addEventListener("touchend", () => {
-  holder = false;
+  holding = false;
   startTransition();
 });
 

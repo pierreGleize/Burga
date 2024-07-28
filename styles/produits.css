@@ -63,7 +63,7 @@ header {
     width: 24px;
 }
 /*  */
-.recherche{
+/* .recherche{
     width: 400px;
     position: fixed;
     left: -400px;
@@ -77,7 +77,7 @@ header {
 }
 .recherche.ouvert{
     left: 0;
-}
+} */
 /*  */
 .menu {
     width: 400px;
@@ -275,6 +275,7 @@ span img {
     text-decoration: underline;
     font-weight: bold;
     font-size: 0.9rem;
+    color: black;
 }
 
 .titrePageOffre {
@@ -587,6 +588,10 @@ span img {
         height: 370px;
     }.produit img:nth-child(1) {
         width: 230px;
+    }
+    .footer-logo h5 {
+        margin: 0px 0 15px 0;
+        padding-top: 15px;
     }
 
 .contenair-footer{
